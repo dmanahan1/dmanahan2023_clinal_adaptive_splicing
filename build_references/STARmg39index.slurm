@@ -2,5 +2,5 @@ STAR --runThreadN 14 \
      --runMode genomeGenerate \
      --sjdbOverhang 100 \
      --genomeFastaFiles /path/to/GRCm39.primary_assembly.genome.fa \
-     --genomeDir . \
+     --genomeDir /path/to/mg39_index/ \
      --sjdbGTFfile /path/to/gencode.vM29.annotation.gtf \
