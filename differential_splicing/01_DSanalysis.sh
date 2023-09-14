@@ -1,6 +1,6 @@
 #!/bin/bash
+## Run the leafcutter_ds.R script from the Leafcutter package.
 
-# Run the leafcutter_ds.R script from the Leafcutter package.
 /path/to/leafcutter/scripts/leafcutter_ds.R \
     # Set the number of threads (CPU cores) to use to 4.
     --num_threads 4 \
