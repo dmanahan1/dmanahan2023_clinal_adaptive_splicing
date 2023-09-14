@@ -14,7 +14,7 @@ for bamfile in `ls *bam`; do
     # Extract junctions using regtools
     regtools junctions extract -s 0 -a 8 -m 50 -M 500000 $bamfile -o $bamfile.junc
 
-    # Add the path to the junction file to a text file
+    # Add the path to each junction file to one text file.  Important for the subsequent intron clustering step.
     echo $bamfile.junc >> population_juncfiles.txt
 
 done
