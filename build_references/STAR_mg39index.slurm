@@ -1,5 +1,5 @@
 #!/bin/bash
-## Create a directory with annotation files built from a .gtf.  Used for read mapping with STAR.
+## Create a directory with annotation files built from a GTF.  Used for read mapping with STAR.
 
     # Set the number of CPU threads to use during alignment to 14.
     STAR --runThreadN 14 \
