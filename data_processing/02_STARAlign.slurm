@@ -5,7 +5,7 @@
 for IN in $(cat accession_list); do
 
    # Set the path to the reference genome directory
-   ref_genome=/path/to/mg39_index/
+   ref_genome=/path/to/mg39_STARindex/
 
    # Run STAR with the specified options
    STAR  --outFileNamePrefix ${IN} \ # Prefix for output files
