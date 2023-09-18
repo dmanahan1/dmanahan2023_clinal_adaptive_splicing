@@ -3,4 +3,4 @@
 
   bowtie2-build /path/to/GRCm39.primary_assemby.genome.fa \
   # Specify where Bowtie2 should create the genome index files.
-  /path/to/mg39_bowtie2_index
+  /path/to/mg39_bowtie2index
