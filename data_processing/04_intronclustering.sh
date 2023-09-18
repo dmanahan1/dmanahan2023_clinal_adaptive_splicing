@@ -2,8 +2,8 @@
 ## Uses junction counts to define alternatively spliced intron clusters.
 
 # Run the leafcutter_cluster_regtools.py script from the leafcutter package
-python ~/leafcutter/clustering/leafcutter_cluster_regtools.py \
-    # Specify the input junction file name
+python /path/to/leafcutter/clustering/leafcutter_cluster_regtools.py \
+    # Specify names of the  input junction files
     -j population_juncfiles.txt \
     # Set the minimum intron size to 50 bases
     -m 50 \
