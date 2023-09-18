@@ -5,7 +5,7 @@
 ref_genome=/path/to/mg39_STARindex/
 
 # Run STAR with the specified options
-STAR  --outFileNamePrefix ${prefix} \ # Prefix for output files.  Recommended to match the prefix with the input's name.
+STAR  --outFileNamePrefix ${prefix} \ # Prefix for output files.  Recommended to match the prefix with the input file's name.
       --quantMode GeneCounts \    # Count gene expression
       --readFilesCommand cat \    # Concatenate reads
       --outSAMtype BAM SortedByCoordinate \  # Output sorted BAM files
