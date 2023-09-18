@@ -11,7 +11,7 @@
     # Provide the path to the reference genome FASTA file.
      --genomeFastaFiles /path/to/GRCm39.primary_assembly.genome.fa \
     # Specify the directory where STAR should create or access genome index files.
-    --genomeDir /path/to/mg39_STAR_index/ \
+    --genomeDir /path/to/mg39_STARindex/ \
     # Provide the path to the gene annotation file (GTF format).
     # This file contains information about gene features, such as exons and introns.
     --sjdbGTFfile /path/to/gencode.vM29.annotation.gtf \
